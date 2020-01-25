@@ -197,7 +197,7 @@ class SSP_Speakers {
 		);
 
 		// Allow filtering of taxonomy arguments
-		$args = apply_filters( 'ssp_register_taxonomy_args', $args, $this->tax );
+		$args = apply_filters( 'ssp_speakers_register_taxonomy_args', $args, $this->tax );
 
 		// Get all selected podcast post types
 		$podcast_post_types = ssp_post_types( true );
